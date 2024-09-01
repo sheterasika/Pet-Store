@@ -15,40 +15,39 @@ body{
     left: 10px;
 }
 .heading{
-    color: white;
+    color: #615338;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 29px;
     position: relative;
-    left: 340px;
+    left: 320px;
 }
 .btn{
     font-weight: bold;
-    color:#595959;
     text-align: center;
     border-radius: 20px;
     border: none;
-    background-color: white;
+    background-color: #8c7851;
     font-size: 16px;
     padding:5px;
 }
 .home{
     position: relative;
     top:30px;
-    left: 550px;
+    left: 540px;
     width: 65px;
     height: 30px;
 }
 .about{
     position: relative;
     top:30px;
-    left: 570px;
+    left: 560px;
     width: 90px;
     height: 30px;
 }
 .contact{
     position: relative;
     top:30px;
-    left: 590px;
+    left: 580px;
     width: 105px;
     height: 30px;
 }
@@ -83,6 +82,7 @@ button:hover{
     top: 60px;
     font-size: 30px;
     font-weight: bold;
+    color:#615338;
 }
 .cat-type{
     position: relative;
@@ -90,6 +90,7 @@ button:hover{
     font-weight: bold;
     margin-left: 20px;
     top: 30px;
+    color: #8c7851;
 }
 .container2{
     display: flex;
@@ -137,7 +138,58 @@ button:hover{
     font-size: 16px;
     border-radius: 10px;
     border: none;
-    background-color: #595959;
-    color: white;
+    background-color: #8c7851;
+    color:white;
     margin-bottom: 15px;
+}
+
+footer{
+    background-color:#b3b3b3;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.about-us{
+    margin-left: 20px;
+    width: 550px;
+}
+.about1{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    color: #615338;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.info{
+    position: relative;
+    font-size: 17px;
+    font-family: cursive;
+}
+.contact-us{
+    width: 300px;
+
+}
+.contact1{
+    margin-left: 30px;
+    position: relative;
+    top: 10px;
+    color: #615338;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.contact-info{
+    margin-left: 40px;
+    font-size: 17px;
+    font-family: cursive;
+}
+.map{
+    width: 200px;
+    margin-top: 14px;
+    margin-left: 60px;
+
 }
